@@ -168,13 +168,13 @@ const is_expanded = ref(false)
 const ToggleMenu = () => {
     is_expanded.value = !is_expanded.value;
 }
-const isaboutexpanded = ref(true)
+const isaboutexpanded = ref(false)
 
 const toggleabout = () => {
     isaboutexpanded.value = !isaboutexpanded.value;
 }
 
-const isproseexpanded = ref(true)
+const isproseexpanded = ref(false)
 
 const toggleprose = () => {
     isproseexpanded.value = !isproseexpanded.value;
