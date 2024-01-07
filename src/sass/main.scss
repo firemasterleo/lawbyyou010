@@ -247,10 +247,10 @@ background-color: #084c61;
             .prosecontent {
                 // border: solid red;
                 height: 0rem;
-                // width: 15rem;
+                width: 18rem;
                 margin-top: 0.4rem;
                 padding-inline: 1.3rem;
-                // overflow-y: hidden;
+                overflow-y: hidden;
                 display: flex;
                 flex-direction: column;
                 gap: 0.5rem;
@@ -277,7 +277,7 @@ background-color: #084c61;
         &.isproseexpanded {
             
             .prosecontent {
-                width: 15rem;
+                width: 18rem;
                 height: 18rem;
                 transition: height 0.15s ease-in;
                 opacity: 1;
