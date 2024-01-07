@@ -92,7 +92,7 @@
             <button ref="button" class="button">Schedule a Consult</button>
         </div>
     </div>
-    <div class="sections" :class="{ 'is-expanded': is_expanded }">
+    <div class="sections">
         <div class="section1">
             <h1 ref="header" class="header">
                 Prose Legal
