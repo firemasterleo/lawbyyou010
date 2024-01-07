@@ -16,6 +16,8 @@
         </div>
         
     </div>
+    </div>
+
     <div class="menuslidelist" :class="{ 'is-expanded': is_expanded }">
 
 
@@ -82,8 +84,6 @@
 
 
     </div>
-    </div>
-
     <div class="herosection">
         <img src="../assets/lawbackground3.jpg" alt="">
         <div class="veil"></div>

@@ -35,7 +35,7 @@ background-color: #084c61;
         height: 6rem;
         width: 100%;
         display: flex;
-        overflow-x: hidden;
+        overflow-x: clip;
 
         align-items: center;
         justify-content: space-between;
@@ -114,10 +114,12 @@ background-color: #084c61;
 
     }
 
+    
+}
     .menuslidelist {
         position: absolute;
         background-color: #084c61;
-        width: 80%;
+        width: 82%;
         transform: translateX(125%);
         height: 80vh;
         opacity: 0;
@@ -133,12 +135,12 @@ background-color: #084c61;
             overflow-y: auto;
             transform: translateX(25%);
             opacity: 1;
-    
+
                 }
 
     .home {
             height: 2.5rem;
-    
+
             border-bottom: solid;
             border-width: 1.4px;
             border-color: #ffffff8e;
@@ -178,7 +180,7 @@ background-color: #084c61;
             p {
                 color: rgb(235, 226, 226);
                 font-size: 18.5px;
-    
+
                 }
             svg {
                 fill: rgb(235, 226, 226);
@@ -196,9 +198,9 @@ background-color: #084c61;
                 display: flex;
                 flex-direction: column;
                 gap: 0.5rem;
-                 transition: height 0.15s ease-in, opacity 0.2s;
-                 opacity: 0;
-                 overflow-x: hidden;
+                transition: height 0.15s ease-in, opacity 0.2s;
+                opacity: 0;
+                overflow-x: hidden;
 
 
                 li{
@@ -207,9 +209,9 @@ background-color: #084c61;
                     // border: solid;
                     padding-bottom: 0.5rem;
                     a {
-                       color: rgb(235, 226, 226);
-                       font-size: 14.5px;
-                   }
+                    color: rgb(235, 226, 226);
+                    font-size: 14.5px;
+                }
                 }
                 :nth-child(3) {
                     border-bottom: none;
@@ -269,9 +271,9 @@ background-color: #084c61;
                 display: flex;
                 flex-direction: column;
                 gap: 0.5rem;
-                 transition: height 0.15s ease-in;
-                 opacity: 1;
-                //  overflow-x: hidden;
+                transition: height 0.15s ease-in;
+                opacity: 1;
+                 overflow-x: hidden;
 
 
                 li{
@@ -279,10 +281,10 @@ background-color: #084c61;
                     border-bottom: 1px solid rgb(235, 226, 226) ;
                     padding-bottom: 0.5rem;
                     a {
-                       color: rgb(235, 226, 226);
-                       font-size: 14.5px;
+                    color: rgb(235, 226, 226);
+                    font-size: 14.5px;
 
-                   }
+                }
                 }
                 :nth-child(7) {
                     // border-bottom: none;
@@ -303,8 +305,8 @@ background-color: #084c61;
             }
         }
     }
-    
-    
+
+
     .home {
         height: 2.5rem;
 
@@ -391,8 +393,6 @@ background-color: #084c61;
 
     }
 
-
-    }
 
     }
 
