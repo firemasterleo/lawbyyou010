@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 
+
 }
 :root {
 background-color: #084c61;
@@ -77,18 +78,23 @@ background-color: #084c61;
             }
 
         }
+
         .hamburger {
             display: flex;
             flex-direction: column;
             gap: 0.3rem;
             justify-content: center;
+            background-color: none;
             align-items: center ;
             cursor: pointer;
+            // user-select: none;
             width: 4rem;
             // border: solid 2px black;
             height: 3rem;
             // border: solid black 2rem transparent;
             // margin-right: 0.5rem;
+
+    
             .bar {
                 width: 20px;
                 height: 2px;
@@ -107,6 +113,10 @@ background-color: #084c61;
 
             }
         }
+        .hamburger:active {
+            background-color: transparent; /* Set the background color to whatever you need */
+          }
+          
           
 
 
