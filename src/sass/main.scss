@@ -403,7 +403,7 @@ background-color: #084c61;
         z-index: 0;
         // object-fit: cover;
         
-        overflow: clip;
+        overflow: hidden;
         img {
             object-fit: cover;
             position: relative;
@@ -463,7 +463,7 @@ background-color: #084c61;
     width: 100vw;
     background-color: #f2f8fc;
     padding-inline: 1rem;
-    overflow-x: clip;
+    overflow-x: hidden;
     // transition: all 2s ;
 
 
