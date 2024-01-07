@@ -243,7 +243,7 @@ background-color: #084c61;
             flex-direction: column;
 
             border-bottom: solid;
-            border: solid;
+            // border: solid;
             border-width: 1.4px;
             border-color: #ffffff8e;
 
@@ -266,13 +266,13 @@ background-color: #084c61;
             }
 
             .prosecontent {
-                border: solid red;
+                // border: solid red;
                 height: 0rem;
                 width: 17rem;
                 margin-top: 0.4rem;
 
                 padding-inline: 1.3rem;
-                // overflow-y: hidden;
+                overflow-y: hidden;
                 display: flex;
                 flex-direction: column;
                 gap: 0.5rem;
