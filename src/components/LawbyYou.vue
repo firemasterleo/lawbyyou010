@@ -20,7 +20,7 @@
 
 
             <div class="home" ><a href="">Home</a></div>
-            <div class="about" :class="{ 'isaboutexpanded': isaboutexpanded }" @click="toggleabout">
+            <div class="about" :class="{ 'isaboutexpanded': isaboutexpanded }" @click="ToggleAbout">
                 <div class="textandsvg">
                     <p>About LawByYou</p>
                     <svg xmlns='http://www.w3.org/2000/svg'  viewBox='0 0 24 24' fill='#000000' width='30' height='30'><path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path></svg>
@@ -39,7 +39,7 @@
                 </li>
                 </div>
             </div>
-            <div class="prose" :class="{ 'isproseexpanded': isproseexpanded }" @click="toggleprose">                
+            <div class="prose" :class="{ 'isproseexpanded': isproseexpanded }" @click="ToggleProse">                
                 <div class="textandsvg">
                     <p>Prose</p>
                     <svg xmlns='http://www.w3.org/2000/svg'  viewBox='0 0 24 24' fill='#000000' width='30' height='30'><path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path></svg>
@@ -170,13 +170,13 @@ const ToggleMenu = () => {
 }
 const isaboutexpanded = ref(true)
 
-const toggleabout = () => {
+const ToggleAbout = () => {
     isaboutexpanded.value = !isaboutexpanded.value;
 }
 
 const isproseexpanded = ref(true)
 
-const toggleprose = () => {
+const ToggleProse = () => {
     isproseexpanded.value = !isproseexpanded.value;
 }
 

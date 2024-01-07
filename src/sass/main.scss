@@ -210,7 +210,7 @@ background-color: #084c61;
                 opacity: 1;
             }
             svg {
-                transform: rotate(-180deg);
+                transform: rotate(180deg);
                 transition: transform 0.2s ease-in;
             }
         }
@@ -250,11 +250,11 @@ background-color: #084c61;
                 width: 20rem;
                 margin-top: 0.4rem;
                 padding-inline: 1.3rem;
-                overflow-y: hidden;
+                // overflow-y: hidden;
                 display: flex;
                 flex-direction: column;
                 gap: 0.5rem;
-                 transition: height 0.15s ease-in, opacity 0.2s;
+                 transition: height 0.15s ease-in;
                  opacity: 1;
                  overflow-x: hidden;
 
@@ -276,12 +276,12 @@ background-color: #084c61;
             
         &.isproseexpanded {
             .prosecontent {
-                height: 15rem;
-                transition: height 0.15s ease-in, opacity 0.2s;
+                height: 18rem;
+                transition: height 0.15s ease-in;
                 opacity: 1;
             }
             svg {
-                transform: rotate(-180deg);
+                transform: rotate(180deg);
                 transition: transform 0.2s ease-in;
             }
         }
