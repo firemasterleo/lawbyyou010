@@ -119,7 +119,7 @@ background-color: #084c61;
         padding-left: 1rem;
         border-top-left-radius: 1rem;
         border-bottom-left-radius: 1rem;
-        transition: transform 0.3s ease-out, opacity 0s;
+        transition: transform 0.3s ease-out;
         // overflow-y: clip;
         z-index: 5;
 
@@ -206,7 +206,7 @@ background-color: #084c61;
         &.isaboutexpanded {
             .aboutcontent {
                 height: 7rem;
-                transition: height 0.15s ease-in, opacity 0.2s;
+                transition: height 0.15s ease-in;
                 opacity: 1;
             }
             svg {
@@ -468,6 +468,8 @@ background-color: #084c61;
         gap: 1rem;
         align-items: center;
         overflow: hidden;
+        transition: all 2s ;
+
 
         div {
             height: 3rem;
