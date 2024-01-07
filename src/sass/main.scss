@@ -28,14 +28,14 @@ background-color: #084c61;
     position: sticky;
     top: 0;
     z-index: 10;
-    overflow-x: clip;
+    overflow-x: hidden;
     width: 100vw;
     .header {
         padding: 0 0.8rem ;
         height: 6rem;
         width: 100%;
         display: flex;
-        overflow-x: clip;
+        overflow-x: hidden;
 
         align-items: center;
         justify-content: space-between;
