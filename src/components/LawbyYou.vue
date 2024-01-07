@@ -226,9 +226,9 @@ onMounted(() => {
     .from(fam.value, { x: '60', opacity: 0, duration: 1, ease: 'power.in' }, '-=0.5')
     .from(crim.value, { x: '-60', opacity: 0, duration: 1, ease: 'power.in' }, '-=0.5') // Delayed by 0.5s
     .from(imm.value, { x: '60', opacity: 0, duration: 1, ease: 'power.in' }, '-=0.8') // Delayed by 1s
-    .from(forms.value, { x: '-60', opacity: 0, duration: 1, ease: 'power.in' }, '-=1.5') // Delayed by 1s
-    .from(etc.value, { x: '60', opacity: 0, duration: 1, ease: 'power.in' }, '-=1.8') // Delayed by 1s
-    .from(etcc.value, { x: '-60', opacity: 0, duration: 1, ease: 'power.in' }, '-=1.7'); // Delayed by 1s
+    .from(forms.value, { x: '-60', opacity: 0, duration: 1.5, ease: 'power.in' }, '-=1.5') // Delayed by 1s
+    .from(etc.value, { x: '60', opacity: 0, duration: 1.7, ease: 'power.in' }, '-=1.8') // Delayed by 1s
+    .from(etcc.value, { x: '-80', opacity: 0, duration: 2.4, ease: 'power.in' }, '-=1.7'); // Delayed by 1s
 
   // Use a single ScrollTrigger for all animations
   ScrollTrigger.create({
