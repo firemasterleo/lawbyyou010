@@ -132,8 +132,16 @@ background-color: #084c61;
         border-top-left-radius: 1rem;
         border-bottom-left-radius: 1rem;
         transition: transform 0.3s ease-out;
-        // overflow-y: clip;
+        // overflow-y: hidden;
         z-index: 5;
+
+        &.is-expanded {
+            transition: transform 0.2s ease-in;
+            overflow-y: auto;
+            transform: translateX(25%);
+            opacity: 1;
+    
+                }
 
     .home {
             height: 2.5rem;
@@ -235,6 +243,7 @@ background-color: #084c61;
             flex-direction: column;
 
             border-bottom: solid;
+            border: solid;
             border-width: 1.4px;
             border-color: #ffffff8e;
 
@@ -257,22 +266,23 @@ background-color: #084c61;
             }
 
             .prosecontent {
-                // border: solid red;
+                border: solid red;
                 height: 0rem;
-                width: 18rem;
+                width: 17rem;
                 margin-top: 0.4rem;
+
                 padding-inline: 1.3rem;
-                overflow-y: hidden;
+                // overflow-y: hidden;
                 display: flex;
                 flex-direction: column;
                 gap: 0.5rem;
                  transition: height 0.15s ease-in;
                  opacity: 1;
-                 overflow-x: hidden;
+                //  overflow-x: hidden;
 
 
                 li{
-                    width: 19rem;
+                    width: 15rem;
                     border-bottom: 1px solid rgb(235, 226, 226) ;
                     padding-bottom: 0.5rem;
                     a {
@@ -289,7 +299,7 @@ background-color: #084c61;
         &.isproseexpanded {
             
             .prosecontent {
-                width: 18rem;
+                width: 17rem;
                 height: 18rem;
                 transition: height 0.15s ease-in;
                 opacity: 1;
@@ -388,13 +398,7 @@ background-color: #084c61;
 
     }
 
-    &.is-expanded {
-        transition: transform 0.2s ease-in;
-        overflow-y: auto;
-        transform: translateX(25%);
-        opacity: 1;
 
-            }
     }
 
     }
