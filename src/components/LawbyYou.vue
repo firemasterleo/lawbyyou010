@@ -131,22 +131,22 @@
 
         </div>
         <div class="section2">
-            <div ref="fam">
+            <div ref="fam" class="colorbars">
                  <h3>Family Law</h3>
             </div >
-            <div ref="crim">
+            <div ref="crim" class="colorbars">
                  <h3>Criminal Law</h3>
             </div >
-            <div ref="imm">
+            <div ref="imm" class="colorbars">
                  <h3>Immigration Law</h3>
             </div>
-            <div ref="forms">
+            <div ref="forms" class="colorbars">
                  <h3>Forms</h3>
             </div>
-            <div ref="etc">
+            <div ref="etc" class="colorbars">
                  <h3>ETC</h3>
             </div>
-            <div ref="etcc">
+            <div ref="etcc" class="colorbars">
                  <h3>ETC</h3>
             </div>
         
