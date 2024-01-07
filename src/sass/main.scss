@@ -80,12 +80,15 @@ background-color: #084c61;
         .hamburger {
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
+            gap: 0.3rem;
+            justify-content: center;
+            align-items: center ;
             cursor: pointer;
-            width: 22px;
-            height: 15px;
-            border: solid black 2rem transparent;
-            margin-right: 0.5rem;
+            width: 4rem;
+            border: solid 2px black;
+            height: 3rem;
+            // border: solid black 2rem transparent;
+            // margin-right: 0.5rem;
             .bar {
                 width: 20px;
                 height: 2px;
