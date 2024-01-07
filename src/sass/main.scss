@@ -113,9 +113,7 @@ background-color: #084c61;
 
             }
         }
-        .hamburger:active {
-            background-color: transparent; /* Set the background color to whatever you need */
-          }
+
           
           
 
@@ -270,7 +268,7 @@ background-color: #084c61;
                 gap: 0.5rem;
                  transition: height 0.15s ease-in;
                  opacity: 1;
-                //  overflow-x: hidden;
+                 overflow-x: hidden;
 
 
                 li{
