@@ -247,7 +247,7 @@ background-color: #084c61;
             .prosecontent {
                 // border: solid red;
                 height: 0rem;
-                width: 20rem;
+                // width: 15rem;
                 margin-top: 0.4rem;
                 padding-inline: 1.3rem;
                 // overflow-y: hidden;
@@ -256,11 +256,11 @@ background-color: #084c61;
                 gap: 0.5rem;
                  transition: height 0.15s ease-in;
                  opacity: 1;
-                 overflow-x: hidden;
+                //  overflow-x: hidden;
 
 
                 li{
-                    width: 20rem;
+                    width: 19rem;
                     border-bottom: 1px solid rgb(235, 226, 226) ;
                     padding-bottom: 0.5rem;
                     a {
@@ -270,12 +270,14 @@ background-color: #084c61;
                    }
                 }
                 :nth-child(7) {
-                    border-bottom: none;
+                    // border-bottom: none;
                 }
             }
             
         &.isproseexpanded {
+            
             .prosecontent {
+                width: 15rem;
                 height: 18rem;
                 transition: height 0.15s ease-in;
                 opacity: 1;
